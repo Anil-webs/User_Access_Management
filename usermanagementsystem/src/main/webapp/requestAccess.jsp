@@ -80,8 +80,7 @@
 					</div>
 					<div class="row paddingbottom">
 						<div class="col-md-12 style">
-						<a href="SoftwarelistServlet" class="btn btn-success">ACCESS REQUEST</a>
-
+						<button type="submit"  class="btn btn-success">ACCESS REQUEST</button>
 							<p id="sub"></P>
 							<%
 							String message = (String) request.getAttribute("Message");
